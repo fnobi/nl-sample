@@ -15,7 +15,12 @@
   "author": "Fujisawa Shin",
   "license": "ISC",
   "dependencies": {
+    "@types/aws-lambda": "^8.10.19",
+    "@types/uuid": "^3.4.4",
     "netlify-lambda": "^1.4.2",
     "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.3.3"
   }
 }
